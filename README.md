@@ -6,7 +6,9 @@
 
 <br>
 
-**AxBench** is a a scalable benchmark that evaluates interpretability techniques on two axes: *concept detection* and *model steering*.
+**AxBench** is a scalable benchmark that evaluates interpretability techniques on two axes: *concept detection* and *model steering*.
+
+**Note**: This repository is a fork of the original [AxBench](https://github.com/stanfordnlp/axbench) project. In this fork, we extend the work to study the transferability of interpretability techniques across different models, layers, and configurations. The `axbench/transferability/` directory contains experiments and results focused on cross-model transfer learning for steering vectors and concept detection.
 
 - 🤗 **HuggingFace**: [**AxBench Collections**](https://huggingface.co/collections/pyvene/axbench-release-6787576a14657bb1fc7a5117)  
 - [<img align="center" src="https://colab.research.google.com/assets/colab-badge.svg" />](https://colab.research.google.com/github/stanfordnlp/axbench/blob/main/axbench/examples/tutorial.ipynb) **Tutorial of using our dictionary via [pyvene](https://github.com/stanfordnlp/pyvene)**
@@ -40,11 +42,12 @@
 
 ## Highlights
 
-1. **Scalabale evaluation harness**: Framework for generating synthetic training + eval data from concept lists (e.g. GemmaScope SAE labels).
+1. **Scalable evaluation harness**: Framework for generating synthetic training + eval data from concept lists (e.g. GemmaScope SAE labels).
 2. **Comprehensive implementations**: 10+ interpretability methods evaluated, along with finetuning and prompting baselines.
-2. **16K concept training data**: Full-scale datasets for **supervised dictionary learning (SDL)**.  
-3. **Two pretrained SDL models**: Drop-in replacements for standard SAEs.  
-4. **LLM-in-the-loop training**: Generate your own datasets for less than \$0.01 per concept.
+3. **16K concept training data**: Full-scale datasets for **supervised dictionary learning (SDL)**.  
+4. **Two pretrained SDL models**: Drop-in replacements for standard SAEs.  
+5. **LLM-in-the-loop training**: Generate your own datasets for less than \$0.01 per concept.
+6. **Transferability studies**: Experiments on transferring learned concepts and steering vectors across different models and layers (see `axbench/transferability/`).
 
 
 ## Additional experiments
@@ -57,6 +60,7 @@ We include exploratory notebooks under `axbench/examples`, such as:
 | `subspace_gazer.ipynb`                | Visualizes learned subspaces.                                                 |
 | `lang>subspace.ipynb`                 | Fine-tunes a hyper-network to map natural language to subspaces or steering vectors. |
 | `platonic.ipynb`                      | Explores the platonic representation hypothesis in subspace learning.         |
+| `transferability/`                     | Scripts and results for cross-model transfer experiments of steering vectors and concepts. |
 
 ---
 
