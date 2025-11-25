@@ -1,0 +1,224 @@
+{
+  "gemma-2-2b-it-l20_to_gemma-2-2b-it-l20_identity": {
+    "train": {
+      "mse": 0.0,
+      "cosine_similarity_mean": 1.0,
+      "cosine_similarity_std": 7.965005721644047e-08,
+      "cosine_similarity_min": 0.9999999403953552,
+      "cosine_similarity_max": 1.000000238418579,
+      "l2_distance_mean": 0.0,
+      "l2_distance_std": 0.0,
+      "pearson_correlation_mean": 0.999999976121924,
+      "pearson_correlation_std": 3.68625825374931e-08,
+      "relative_error_mean": 0.0,
+      "relative_error_median": 0.0,
+      "top_100_overlap_mean": 1.0,
+      "top_100_overlap_std": 0.0
+    },
+    "test": {
+      "mse": 0.0,
+      "cosine_similarity_mean": 1.0,
+      "cosine_similarity_std": 4.214684778958144e-08,
+      "cosine_similarity_min": 0.9999999403953552,
+      "cosine_similarity_max": 1.0,
+      "l2_distance_mean": 0.0,
+      "l2_distance_std": 0.0,
+      "pearson_correlation_mean": NaN,
+      "pearson_correlation_std": NaN,
+      "relative_error_mean": 0.0,
+      "relative_error_median": 0.0,
+      "top_100_overlap_mean": 1.0,
+      "top_100_overlap_std": 0.0
+    },
+    "generalization": {
+      "mse_gap": 0.0,
+      "cosine_gap": 0.0,
+      "l2_gap": 0.0
+    }
+  },
+  "gemma-2-2b-it-l20_to_meta-llama-Llama-3.1-8B-Instruct-l20_linear": {
+    "train": {
+      "mse": 1.702928287272698e-08,
+      "cosine_similarity_mean": 0.9999659657478333,
+      "cosine_similarity_std": 1.9837028958136216e-05,
+      "cosine_similarity_min": 0.9999254941940308,
+      "cosine_similarity_max": 0.9999879002571106,
+      "l2_distance_mean": 0.008027121424674988,
+      "l2_distance_std": 0.0024651328567415476,
+      "pearson_correlation_mean": 0.9999698996543884,
+      "pearson_correlation_std": 0.00015588957467116416,
+      "relative_error_mean": 10.890782356262207,
+      "relative_error_median": 0.006614170037209988,
+      "top_100_overlap_mean": 0.9937499999999999,
+      "top_100_overlap_std": 0.006959705453537534
+    },
+    "test": {
+      "mse": 2.7480117736899956e-08,
+      "cosine_similarity_mean": 0.9999468326568604,
+      "cosine_similarity_std": 1.9893312128260732e-05,
+      "cosine_similarity_min": 0.9999327659606934,
+      "cosine_similarity_max": 0.9999608993530273,
+      "l2_distance_mean": 0.01048419438302517,
+      "l2_distance_std": 0.0022979325149208307,
+      "pearson_correlation_mean": NaN,
+      "pearson_correlation_std": NaN,
+      "relative_error_mean": 12.668097496032715,
+      "relative_error_median": 0.006905079819262028,
+      "top_100_overlap_mean": 0.995,
+      "top_100_overlap_std": 0.0050000000000000044
+    },
+    "generalization": {
+      "mse_gap": 1.0450834864172975e-08,
+      "cosine_gap": 1.913309097290039e-05,
+      "l2_gap": 0.0024570729583501816
+    }
+  },
+  "gemma-2-2b-it-l20_to_meta-llama-Llama-3.1-8B-Instruct-l20_mlp": {
+    "train": {
+      "mse": 4.72140745841898e-05,
+      "cosine_similarity_mean": 0.8972029089927673,
+      "cosine_similarity_std": 0.207888662815094,
+      "cosine_similarity_min": 0.3831050395965576,
+      "cosine_similarity_max": 0.9898329973220825,
+      "l2_distance_mean": 0.3437711000442505,
+      "l2_distance_std": 0.2931801974773407,
+      "pearson_correlation_mean": 0.6034919619560242,
+      "pearson_correlation_std": 0.3650675415992737,
+      "relative_error_mean": 889.9619140625,
+      "relative_error_median": 0.32184794545173645,
+      "top_100_overlap_mean": 0.795,
+      "top_100_overlap_std": 0.17797471730557685
+    },
+    "test": {
+      "mse": 1.5238845662679523e-05,
+      "cosine_similarity_mean": 0.9700531959533691,
+      "cosine_similarity_std": 0.002191509585827589,
+      "cosine_similarity_min": 0.9685035347938538,
+      "cosine_similarity_max": 0.9716027975082397,
+      "l2_distance_mean": 0.24977806210517883,
+      "l2_distance_std": 0.007645470090210438,
+      "pearson_correlation_mean": NaN,
+      "pearson_correlation_std": NaN,
+      "relative_error_mean": 563.541259765625,
+      "relative_error_median": 0.2956634759902954,
+      "top_100_overlap_mean": 0.855,
+      "top_100_overlap_std": 0.0050000000000000044
+    },
+    "generalization": {
+      "mse_gap": -3.197522892151028e-05,
+      "cosine_gap": -0.0728502869606018,
+      "l2_gap": -0.09399303793907166
+    }
+  },
+  "meta-llama-Llama-3.1-8B-Instruct-l20_to_gemma-2-2b-it-l20_linear": {
+    "train": {
+      "mse": 1.2215612343879911e-07,
+      "cosine_similarity_mean": 0.9998710751533508,
+      "cosine_similarity_std": 0.00012392844655551016,
+      "cosine_similarity_min": 0.999634325504303,
+      "cosine_similarity_max": 0.9999912977218628,
+      "l2_distance_mean": 0.0146632706746459,
+      "l2_distance_std": 0.008713613264262676,
+      "pearson_correlation_mean": 0.999975860118866,
+      "pearson_correlation_std": 7.400654430966824e-05,
+      "relative_error_mean": 16.257625579833984,
+      "relative_error_median": 0.006514026317745447,
+      "top_100_overlap_mean": 0.9924999999999999,
+      "top_100_overlap_std": 0.006614378277661482
+    },
+    "test": {
+      "mse": 1.3080334326787124e-07,
+      "cosine_similarity_mean": 0.999858021736145,
+      "cosine_similarity_std": 0.00014110765187069774,
+      "cosine_similarity_min": 0.999758243560791,
+      "cosine_similarity_max": 0.999957799911499,
+      "l2_distance_mean": 0.015980668365955353,
+      "l2_distance_std": 0.009590531699359417,
+      "pearson_correlation_mean": NaN,
+      "pearson_correlation_std": NaN,
+      "relative_error_mean": 11.977431297302246,
+      "relative_error_median": 0.007425670977681875,
+      "top_100_overlap_mean": 1.0,
+      "top_100_overlap_std": 0.0
+    },
+    "generalization": {
+      "mse_gap": 8.647219829072128e-09,
+      "cosine_gap": 1.3053417205810547e-05,
+      "l2_gap": 0.001317397691309452
+    }
+  },
+  "meta-llama-Llama-3.1-8B-Instruct-l20_to_gemma-2-2b-it-l20_mlp": {
+    "train": {
+      "mse": 7.161909161368385e-05,
+      "cosine_similarity_mean": 0.9130779504776001,
+      "cosine_similarity_std": 0.17488327622413635,
+      "cosine_similarity_min": 0.48081570863723755,
+      "cosine_similarity_max": 0.9942365288734436,
+      "l2_distance_mean": 0.31629645824432373,
+      "l2_distance_std": 0.272484689950943,
+      "pearson_correlation_mean": 0.6060460209846497,
+      "pearson_correlation_std": 0.38229888677597046,
+      "relative_error_mean": 928.4301147460938,
+      "relative_error_median": 0.3135761022567749,
+      "top_100_overlap_mean": 0.76375,
+      "top_100_overlap_std": 0.15378048478269277
+    },
+    "test": {
+      "mse": 2.3199463612399995e-05,
+      "cosine_similarity_mean": 0.9740785360336304,
+      "cosine_similarity_std": 0.0020948247984051704,
+      "cosine_similarity_min": 0.9725972414016724,
+      "cosine_similarity_max": 0.9755597710609436,
+      "l2_distance_mean": 0.23111775517463684,
+      "l2_distance_std": 0.008502621203660965,
+      "pearson_correlation_mean": NaN,
+      "pearson_correlation_std": NaN,
+      "relative_error_mean": 520.8282470703125,
+      "relative_error_median": 0.2881013751029968,
+      "top_100_overlap_mean": 0.795,
+      "top_100_overlap_std": 0.0050000000000000044
+    },
+    "generalization": {
+      "mse_gap": -4.8419628001283854e-05,
+      "cosine_gap": -0.06100058555603027,
+      "l2_gap": -0.08517870306968689
+    }
+  },
+  "meta-llama-Llama-3.1-8B-Instruct-l20_to_meta-llama-Llama-3.1-8B-Instruct-l20_identity": {
+    "train": {
+      "mse": 0.0,
+      "cosine_similarity_mean": 1.0,
+      "cosine_similarity_std": 9.151094815251781e-08,
+      "cosine_similarity_min": 0.9999999403953552,
+      "cosine_similarity_max": 1.000000238418579,
+      "l2_distance_mean": 0.0,
+      "l2_distance_std": 0.0,
+      "pearson_correlation_mean": 0.9999999753636075,
+      "pearson_correlation_std": 3.820956931342845e-08,
+      "relative_error_mean": 0.0,
+      "relative_error_median": 0.0,
+      "top_100_overlap_mean": 1.0,
+      "top_100_overlap_std": 0.0
+    },
+    "test": {
+      "mse": 0.0,
+      "cosine_similarity_mean": 0.9999999403953552,
+      "cosine_similarity_std": 8.429369557916289e-08,
+      "cosine_similarity_min": 0.9999998807907104,
+      "cosine_similarity_max": 1.0,
+      "l2_distance_mean": 0.0,
+      "l2_distance_std": 0.0,
+      "pearson_correlation_mean": NaN,
+      "pearson_correlation_std": NaN,
+      "relative_error_mean": 0.0,
+      "relative_error_median": 0.0,
+      "top_100_overlap_mean": 1.0,
+      "top_100_overlap_std": 0.0
+    },
+    "generalization": {
+      "mse_gap": 0.0,
+      "cosine_gap": 5.960464477539063e-08,
+      "l2_gap": 0.0
+    }
+  }
+}
